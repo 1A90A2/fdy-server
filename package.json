@@ -1,27 +1,35 @@
 {
-  "name": "flowerwebapp2",
-  "version": "1.0.0",
-  "main": "server.js",
-  
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "engines": {
-  "node": "18.x"
-},
-
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "name": "flowers-detection-pwa",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "axios": "^1.9.0",
-    "express": "^5.1.0",
-    "mongoose": "^8.15.0"
+    "cra-template-pwa": "2.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "5.0.1"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
-
